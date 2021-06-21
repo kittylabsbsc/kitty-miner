@@ -74,6 +74,24 @@ const pools: PoolConfig[] = [
  isFinished: false,
  tokenDecimals: 18,
 },
+{
+ pastaId: 5,
+ tokenName: 'MANGO',
+ earnToken: 'MANGO',
+ stakingTokenName: QuoteToken.KITTYMANGO,
+ stakingTokenAddress: '0xc4b3561619d37Bf1c44e303e480F14f7b9A34C4e',    //
+ contractAddress: {
+   97: '',
+   56: '0xbD81792a43504938a437A981E8aD708f7D4701dd',
+ },
+ poolCategory: PoolCategory.CORE,
+ projectLink: 'https://mangofarm.finance/#/',
+ harvest: true,
+ tokenPerBlock: '1.0',
+ sortOrder: 5,
+ isFinished: false,
+ tokenDecimals: 18,
+},
 ]
 
 export default pools

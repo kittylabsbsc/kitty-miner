@@ -87,6 +87,14 @@ cpizza: {
  56: '0xda3684575afa20309938434F3d40799B12868057',
  97: '',
 },
+kittymango: {
+ 56: '0xc4b3561619d37Bf1c44e303e480F14f7b9A34C4e',
+ 97: '',
+},
+mango: {
+ 56: '0x3D29cdB00CB183a0aEcEEa4fB73F55E1450af3d4',
+ 97: '',
+},
   pizzaRabbits: {
     56: '',
     97: '',
