@@ -3,95 +3,60 @@ import { PoolConfig, QuoteToken, PoolCategory } from './types'
 const pools: PoolConfig[] = [
 
 {
- pastaId: 1,
- tokenName: 'BNB',
- earnToken: 'BNB',
- stakingTokenName: QuoteToken.KITTYWBNB,
- stakingTokenAddress: '0x61cCA94e696981c2Df97bC0e33E4a6583606732A',    //
- contractAddress: {
-   97: '',
-   56: '0x2661bFF98F4F5bFE5B058C8737f97aF41d3E3333',
- },
- poolCategory: PoolCategory.CORE,
- projectLink: 'https://kittytoken.io/',
- harvest: true,
- tokenPerBlock: '1',
- sortOrder: 1,
- isFinished: false,
- tokenDecimals: 18,
-},
+    pastaId: 1,
+     tokenName: 'KITTY-BNB',
+     earnToken: 'KITTY',
+     stakingTokenName: QuoteToken.KITTYWBNB,
+     stakingTokenAddress: '0x61cCA94e696981c2Df97bC0e33E4a6583606732A',    //
+     contractAddress: {
+       97: '',
+       56: '0x01EaB776367AF9E3eD6523822fc19b9Ee1C56959',
+     },
+     poolCategory: PoolCategory.CORE,
+     projectLink: 'https://mangofarm.finance/#/',
+     harvest: true,
+     tokenPerBlock: '4.0',
+     sortOrder: 1,
+     isFinished: false,
+     tokenDecimals: 18,
+    },
+    {
+      pastaId: 2,
+       tokenName: 'KITTY-CHS',
+       earnToken: 'KITTY',
+       stakingTokenName: QuoteToken.KITTYCHS,
+       stakingTokenAddress: '0xe02cE23ba2E9426A74069D5E2d6f0043D8D44667',    //
+       contractAddress: {
+         97: '',
+         56: '0x59d81297DD4C9Cd20A11BC0a567360EE05e2EA1e',
+       },
+       poolCategory: PoolCategory.CORE,
+       projectLink: 'https://mangofarm.finance/#/',
+       harvest: true,
+       tokenPerBlock: '3.0',
+       sortOrder: 2,
+       isFinished: false,
+       tokenDecimals: 18,
+      },
+
 {
- pastaId: 2,
- tokenName: 'BNB',
- earnToken: 'BNB',
- stakingTokenName: QuoteToken.KITTYCHS,
- stakingTokenAddress: '0xe02ce23ba2e9426a74069d5e2d6f0043d8d44667',    //
- contractAddress: {
-   97: '',
-   56: '0x1C40facA96f4cC8482819db84A6de078e81Ee0a8',
- },
- poolCategory: PoolCategory.CORE,
- projectLink: 'https://kittytoken.io/',
- harvest: true,
- tokenPerBlock: '0.65',
- sortOrder: 2,
- isFinished: false,
- tokenDecimals: 18,
-},
-{
- pastaId: 3,
- tokenName: 'BNB',
- earnToken: 'BNB',
- stakingTokenName: QuoteToken.KITTYUSDT,
- stakingTokenAddress: '0xB18B577EF990f554D2685eA509Ff943aA926e585',    //
- contractAddress: {
-   97: '',
-   56: '0xF5e8281AbCF458EBf7851cF159141Cc9485a2d38',
- },
- poolCategory: PoolCategory.CORE,
- projectLink: 'https://kittytoken.io/',
- harvest: true,
- tokenPerBlock: '0.75',
- sortOrder: 3,
- isFinished: false,
- tokenDecimals: 18,
-},
-{
- pastaId: 4,
- tokenName: 'BNB',
- earnToken: 'BNB',
- stakingTokenName: QuoteToken.KITTY,
- stakingTokenAddress: '0x5b4963B964bAc5C2Db83e53ffFe46E0cb83a1346',    //
- contractAddress: {
-   97: '',
-   56: '0x80dF3616C9E0403D63dDe4f08Bb3B178F945050F',
- },
- poolCategory: PoolCategory.CORE,
- projectLink: 'https://kittytoken.io/',
- harvest: true,
- tokenPerBlock: '0.45',
- sortOrder: 4,
- isFinished: false,
- tokenDecimals: 18,
-},
-{
- pastaId: 5,
- tokenName: 'MANGO',
- earnToken: 'MANGO',
- stakingTokenName: QuoteToken.KITTYMANGO,
- stakingTokenAddress: '0xc4b3561619d37Bf1c44e303e480F14f7b9A34C4e',    //
- contractAddress: {
-   97: '',
-   56: '0xbD81792a43504938a437A981E8aD708f7D4701dd',
- },
- poolCategory: PoolCategory.CORE,
- projectLink: 'https://mangofarm.finance/#/',
- harvest: true,
- tokenPerBlock: '1.0',
- sortOrder: 5,
- isFinished: false,
- tokenDecimals: 18,
-},
+  pastaId: 3,
+   tokenName: 'MANGO-KITTY',
+   earnToken: 'KITTY',
+   stakingTokenName: QuoteToken.KITTYMANGO,
+   stakingTokenAddress: '0xc4b3561619d37Bf1c44e303e480F14f7b9A34C4e',    //
+   contractAddress: {
+     97: '',
+     56: '0x6aB9dF19c6A122F983397a7B388b4934AD1A9C53',
+   },
+   poolCategory: PoolCategory.CORE,
+   projectLink: 'https://mangofarm.finance/#/',
+   harvest: true,
+   tokenPerBlock: '1.0',
+   sortOrder: 3,
+   isFinished: false,
+   tokenDecimals: 18,
+  },
 ]
 
 export default pools
